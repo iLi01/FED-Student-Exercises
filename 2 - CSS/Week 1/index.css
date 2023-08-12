@@ -1,0 +1,10 @@
+* {
+  font-size: 18px;
+  color: rgb(170, 152, 129);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1:hover, p:hover {
+  background-color: aquamarine;
+  color: rgb(194, 54, 54);
+}
