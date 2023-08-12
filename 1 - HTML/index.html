@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    table, th, td {
+      border: 2px solid black;
+      border-collapse: collapse;
+    }
+
+    .form {
+      display: block;
+    }
+  </style>
+</head>
+
+<header>
+  <h1 id="first_title"> This is a very silly raccoon! </h1>
+
+  <p id="first_paragraph"> As you can see, I can use html quite well :) Look at that raccoon! </p>
+
+  <img src="https://ih1.redbubble.net/image.2397170407.5990/flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt="Silly Photo of a Raccoon">
+</header>
+
+<body>
+
+  <header class="movie_list">
+    <h2 id="second_title"> My favourite movies: </h2>
+  </header>
+  <ul class="unordered_list">
+    <li id="first_element">Ponyo</li>
+    <li id="second_element">Barbie</li>
+    <li id="third_element">Turning Red</li>
+  </ul>
+  
+
+  <main>
+    <form method="post" action="/submit-url">
+      <div class="form" id="form_1">
+        <label for="name_" id="label_text_1">Your name:</label>
+        <input type="text" name="Name" placeholder="John Smith" required id="name_" aria-label="Input your name">
+      </div>
+
+      <div class="form" id="form_2">
+        <label for="email_" id="label_text_2">Your email:</label>
+        <input type="email" name="email" placeholder="bebebeb@gmail.co.uk" required id="email_" aria-label="Input your email">
+      </div>
+
+      <div class="form" id="form_3">
+        <label for="address_" id="label_text_3">Your address:</label>
+        <input type="text" name="address" maxlength="50" placeholder="67 Nolen St NG46NF Nottingham" required id="address_" aria-label="Input your address">
+      </div>
+
+      <div class="form" id="form_4">
+        <label for="message_" id="label_text_4">Your message:</label>
+        <textarea name="message" placeholder="Put your message in this box" rows="4" required id="message_" aria-label="Input your message"></textarea>
+      </div>
+      
+      <button type="submit" id="submit" value="submit" aria-label="Submit button"> Press here! </button>
+    </form>
+
+    <br>
+
+    <table class="table">
+        <thead class="table_header">
+          <th>Name</th>
+          <th>Age</th>
+          <th>Occupation</th>
+        </thead>
+
+        <tbody class="table_body">
+          <tr class="table_row" id="table_row_1">
+            <td>John</td>
+            <td>25</td>
+            <td>Developer</td>
+          </tr>
+
+          <tr class="table_row" id="table_row_2">
+            <td>Sarah</td>
+            <td>30</td>
+            <td>Designer</td>
+          </tr>
+
+          <tr class="table_row" id="table_row_3">
+            <td>Jack</td>
+            <td>35</td>
+            <td>Manager</td>
+          </tr>
+        </tbody>
+
+    </table>
+  </main>
+</body>
+
+<footer>
+
+</footer>
+</html>
